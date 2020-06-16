@@ -1,0 +1,48 @@
+﻿*{box-sizing:border-box;}
+
+body{
+    padding:20px;
+    font-family:Rockwell;
+}
+
+#main{
+    background-color:#eee;
+    border-radius:10px;
+    padding:20px;
+    text-align:center;
+    display:grid;
+    justify-content:center;
+    align-content:center;
+}
+
+#heading{
+    font-size:50px;
+}
+
+#image{
+    width:100%;
+}
+
+#tribute-info{width:70%;margin-left:15%;}
+
+h3 {
+    font-family: 'Amaranth', sans-serif;
+}
+
+ul{
+
+    line-height:40px;
+    text-align:justify;
+    word-spacing:7px;
+}
+
+ul li{
+    margin-left:0px;
+    text-align:left;
+}
+
+#ext-link{text-decoration:none;}
+
+@media (max-width:600px){
+    #tribute-info{width:100%;margin-left:0;}
+}
